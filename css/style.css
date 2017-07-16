@@ -41,8 +41,9 @@ content:'|';
 h1 {
  	font-weight: 800;
  	font-size: 4.5vw;
+ 	margin-top:.2em;
  	margin-bottom: .1em;
- 	color:#003366;
+ 	color:#336699;
  }
 
 h2 {
@@ -50,7 +51,7 @@ h2 {
  	font-size: 2.2vw;
  	margin-top:1.25em;
  	margin-bottom: 1em;
- 	border-bottom:solid 2px #ccc;
+ 	border-bottom:solid 3px #336699;
  	color:#aaa;
  }
 
@@ -88,7 +89,17 @@ ul li span {
 	color:#333;
 }
 
- 
+.objective {
+	width:100%;
+	border-radius: 6px;
+	background-color:#3366aa;
+	color:#fff;
+	padding:.5em .75em;
+	font-size:1em;
+	margin:1em auto;
+
+}
+  
 
 .skills .thirds {
 width:100%;	
@@ -111,13 +122,14 @@ footer {
 	padding-top:2px;
 	text-align:center;
 	line-height: 1.4em;
-	background-color:#003366;
+	background-color:#336699;
 	border-top:solid 1px #333;
 	font-size:.9em;
 }
 footer, footer a:link, footer a:visited, footer a {
 	color:#eee;
 }
+
 
 @media print
 { 
@@ -133,14 +145,5 @@ footer {
 }
   
 }
+
  
-
-
-.educaction {}
-.school
-.school h2 {}
-.certification {}
-
-.community-involvement {}
-.service {}
-.servie h2 {}
