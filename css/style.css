@@ -59,7 +59,7 @@ address span:before {
 	width:100%;
 	border-radius: 6px;
 	background-color:#3366aa;
-	color:#fefef;
+	color:#fefefe;
 	padding:.5em .75em;
 	font-size:1em;
 	margin:1em auto;
@@ -135,7 +135,16 @@ footer, footer a:link, footer a:visited, footer a {
 { 
 
 	body {
-		font-size:1vw;
+		font-size:10pt;
+	}
+	header h1 {
+		font-size: 12pt;
+	}
+	.objective {
+	color:#666;
+	font-size:9pt;
+	background-color: transparent;	
+	margin:.25em auto;
 	}
 	footer {
 		position:static;
