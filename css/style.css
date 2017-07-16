@@ -1,8 +1,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	position:absolute;
-	right:2vw;
-	left:2vw;
+	right:1.8vw;
+	left:1.8vw;
 	font-size:1.25vw;
 	text-align:center;
 }
@@ -12,7 +12,7 @@ body {
 	width:auto;
 	margin:1vh auto;
 	text-align:justify;
-	max-width:1400px;
+	max-width:1440px;
 	padding-bottom:3em;
 	 
 }
@@ -121,10 +121,18 @@ footer, footer a:link, footer a:visited, footer a {
 
 @media print
 { 
+
+body {
+	font-size:1vw;
+}
 footer {
 	position:static;
+	}
+.experience {
+	page-break-after: always;
 }
-  }
+  
+}
  
 
 
