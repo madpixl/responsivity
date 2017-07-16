@@ -6,7 +6,7 @@ body {
 	font-size:1.25vw;
 	text-align:center;
 }
- 
+
 
 .container { 
 	width:auto;
@@ -14,64 +14,75 @@ body {
 	text-align:justify;
 	max-width:1440px;
 	padding-bottom:3em;
-	 
+
 }
 
 header {
-text-align:center;
- }
-
- address {
- text-align:center;
- width:100%;
- display:inline-block;	
- margin-bottom:.2em;
- font-style:normal;
- padding-right:0;
-
- }
- address span:first-child:before {
- 	content:'';
-}
-address span:before {
-content:'|';
- margin-right: .25em;
+	text-align:center;
 }
 
 h1 {
- 	font-weight: 800;
- 	font-size: 4.5vw;
- 	margin-top:.2em;
- 	margin-bottom: .1em;
- 	color:#336699;
- }
+	font-weight: 800;
+	font-size: 4.5vw;
+	margin-top:.2em;
+	margin-bottom: .1em;
+	color:#336699;
+}
 
 h2 {
- 	font-weight: 900;
- 	font-size: 2.2vw;
- 	margin-top:1.25em;
- 	margin-bottom: 1em;
- 	border-bottom:solid 3px #336699;
- 	color:#aaa;
- }
+	font-weight: 900;
+	font-size: 2.2vw;
+	margin-top:1.25em;
+	margin-bottom: 1em;
+	border-bottom:solid 3px #336699;
+	color:#aaa;
+}
 
- .duration {
- display:inline-block;
- margin-right: .5em;
- width: 15vw;
- }
+address {
+	text-align:center;
+	width:100%;
+	display:inline-block;	
+	margin-bottom:.2em;
+	font-style:normal;
+	padding-right:0;
 
- 
+}
+address span:first-child:before {
+	content:'';
+}
+address span:before {
+	content:'|';
+	margin-right: .25em;
+}
+
+.objective {
+	width:100%;
+	border-radius: 6px;
+	background-color:#3366aa;
+	color:#fff;
+	padding:.5em .75em;
+	font-size:1em;
+	margin:1em auto;
+
+}
+
+.duration {
+	display:inline-block;
+	margin-right: .5em;
+	width: 15vw;
+}
+
+
 dl  {
 	display:block;
 	margin-bottom:.8em;
-	}
+}
 
 dt {
-font-weight: 900;
-font-size:1.5vw;
-margin-bottom:.25em;
-margin-top:1em;
+	font-weight: 900;
+	font-size:1.5vw;
+	margin-bottom:.25em;
+	margin-top:1em;
 
 }
 dd {
@@ -89,30 +100,18 @@ ul li span {
 	color:#333;
 }
 
-.objective {
-	width:100%;
-	border-radius: 6px;
-	background-color:#3366aa;
-	color:#fff;
-	padding:.5em .75em;
-	font-size:1em;
-	margin:1em auto;
-
-}
-  
-
 .skills .thirds {
-width:100%;	
- display:flex;
- justify-content:center;
+	width:100%;	
+	display:flex;
+	justify-content:center;
 }
 .skills .thirds > div { 
-justify-content:space-around;
-width:30%;
-padding:.25% 1.5%;
-margin:1%;
-border:solid 1px #ccc;
-box-shadow: 8px 8px 4px #aaa;
+	justify-content:space-around;
+	width:30%;
+	padding:.25% 1.5%;
+	margin:1%;
+	border:solid 1px #ccc;
+	box-shadow: 8px 8px 4px #aaa;
 }
 footer {
 	position:fixed;
@@ -134,16 +133,15 @@ footer, footer a:link, footer a:visited, footer a {
 @media print
 { 
 
-body {
-	font-size:1vw;
-}
-footer {
-	position:static;
+	body {
+		font-size:1vw;
 	}
-.experience {
-	page-break-after: always;
-}
-  
+	footer {
+		position:static;
+	}
+	.experience {
+		page-break-after: always;
+	}
+
 }
 
- 
