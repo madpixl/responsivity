@@ -12,7 +12,7 @@ body {
 	width:auto;
 	margin:1vh auto;
 	text-align:justify;
-	max-width:1200px;
+	max-width:1080px;
 	padding-bottom:3em;
 
 }
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
 	font-weight: 900;
-	font-size: 2.2vw;
+	font-size: 2.1vw;
 	margin-top:1.25em;
 	margin-bottom: 1em;
 	color:#336699;
@@ -155,4 +155,5 @@ footer, footer a:link, footer a:visited, footer a {
 	.experience {
 		page-break-after: always;
 	}
+
 }
