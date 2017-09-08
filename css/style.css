@@ -55,11 +55,11 @@ address span:before {
 }
 
 .summary {
-	width:100%;
+	width:95%;
 	border-radius: 6px;
 	background-color:#3366aa;
 	color:#fefefe;
-	padding:.5em .75em;
+	padding:.5em 1em;
 	font-size:1em;
 	margin:1em auto;
 
@@ -145,7 +145,7 @@ footer, footer a:link, footer a:visited, footer a {
 	.summary {
 	 
 	font-size:9pt;
-	 padding:5px;
+	 padding:1em;
 	margin:.25em auto;
 	}
 	footer {
