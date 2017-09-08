@@ -55,7 +55,7 @@ address span:before {
 }
 
 .summary {
-	width:100%;
+	width:80%;
 	border-radius: 6px;
 	background-color:#3366aa;
 	color:#fefefe;
