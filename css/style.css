@@ -140,7 +140,7 @@ footer, footer a:link, footer a:visited, footer a {
 	}
 	header h1 {
 		font-size: 17pt;
-		margin-bottom:.5em;
+		margin-bottom:1em;
 	}
 	.summary {  
         padding:1em;
@@ -149,8 +149,6 @@ footer, footer a:link, footer a:visited, footer a {
 	footer {
 		position:static;
 	}
-	.skills {
-     	page-break-after:always;
-	}
+	 
 
 }
