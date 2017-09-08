@@ -11,7 +11,7 @@ body {
 .container { 
 	width:auto;
 	margin:1vh auto;
-	text-align:left;
+	text-align:justify;
 	max-width:1280px;
 	padding-bottom:3em;
 
@@ -26,7 +26,7 @@ h1 {
 	font-size: 4.5vw;
 	margin-top:.2em;
 	margin-bottom: .1em;
-	color:#336699;
+	color:#000000;
 }
 
 h2 {
@@ -55,7 +55,7 @@ address span:before {
 }
 
 .summary {
-	width:80%;
+	width:100%;
 	border-radius: 6px;
 	background-color:#3366aa;
 	color:#fefefe;
@@ -142,10 +142,10 @@ footer, footer a:link, footer a:visited, footer a {
 		font-size: 13pt;
 		margin-bottom:.5em;
 	}
-	.objective {
-	color:#666;
+	.summary {
+	 
 	font-size:9pt;
-	background-color: transparent;	
+	 padding:5px;
 	margin:.25em auto;
 	}
 	footer {
