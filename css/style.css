@@ -160,7 +160,8 @@ footer, footer a:link, footer a:visited, footer a {
         margin:.5em auto;
 	}
 	footer {
-		position:static;
+	position:static;
+        bottom:1px;
 	}
 	 
 
