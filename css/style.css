@@ -139,7 +139,10 @@ footer, footer a:link, footer a:visited, footer a {
 	}
 	header h1 { 
 	font-size: 18pt;
-	margin:1em;
+	margin:1em auto;
+	}
+	address {
+	margin:1em auto;
 	}
     	h2, dt {
     	font-size:10pt;
@@ -150,7 +153,7 @@ footer, footer a:link, footer a:visited, footer a {
      	}
     	.summary {  
     	font-size:9pt;
-        padding:1em;
+        padding:1em 2em;
         margin:.5em auto;
 	}
 	footer {
