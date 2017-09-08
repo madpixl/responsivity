@@ -54,7 +54,7 @@ address span:before {
 	margin-right: .25em;
 }
 
-.objective {
+.summary {
 	width:100%;
 	border-radius: 6px;
 	background-color:#3366aa;
@@ -86,7 +86,7 @@ dt {
 	margin-bottom:.5em;
 	margin-top:1em;
 	margin-left:0;	
-
+   text-align:left;
 }
 dd {
 	margin-left:0;
