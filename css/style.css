@@ -139,20 +139,18 @@ footer, footer a:link, footer a:visited, footer a {
 		font-size:10pt;
 	}
 	header h1 {
-		font-size: 13pt;
+		font-size: 17pt;
 		margin-bottom:.5em;
 	}
-	.summary {
-	 
-	font-size:9pt;
-	 padding:1em;
-	margin:.25em auto;
+	.summary {  
+        padding:1em;
+        margin:.25em auto;
 	}
 	footer {
 		position:static;
 	}
-	.experience {
-		page-break-after: always;
+	.skills {
+     	page-break-before:always;
 	}
 
 }
