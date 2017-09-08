@@ -10,7 +10,7 @@ body {
 .container { 
 	width:auto;
 	margin:1vh auto;
-	text-align:left;
+	text-align:justify;
 	max-width:1200px;
 	padding-bottom:3em;
 
