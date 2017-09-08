@@ -147,7 +147,10 @@ footer, footer a:link, footer a:visited, footer a {
     h2, dt {
     font-size:10pt;
     }
-     .skills div {
+    .consulting {
+    page-break-after:always;
+    }
+    .skills .thirds > div {
      font-size:9pt;
      box-shadow:none;
      }
