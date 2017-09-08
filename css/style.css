@@ -159,10 +159,12 @@ footer, footer a:link, footer a:visited, footer a {
         padding:1em;
         margin:.5em auto;
 	}
-	footer {
+    footer {
 	position:static;
         bottom:1px;
-	}
-	 
-
+        display:inline-block;
+        color:#000000;
+        border:none;
+        background-color:transparent;
+	}	 
 }
