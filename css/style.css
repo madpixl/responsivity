@@ -150,7 +150,7 @@ footer, footer a:link, footer a:visited, footer a {
 		position:static;
 	}
 	.skills {
-     	page-break-before:always;
+     	page-break-after:always;
 	}
 
 }
