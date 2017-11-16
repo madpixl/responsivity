@@ -18,6 +18,15 @@
 footer {
     background-color:#336644;
     text-align:center;
+    color:#efefef;
+    line-height:2vh;
+    padding:1.5vh;
+    postion:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index:2;
+
 }
 .navbar-inverse .navbar-nav {
     margin:2vh auto;
@@ -87,6 +96,15 @@ i {
     background-attachment:scroll;
     background-color:#222;
     background-size:cover;
+}
+
+.activity-element card > div  {
+    height:165px;
+    overflow:hidden;
+}
+.activity-element card > div img {
+height:auto;
+width:auto;
 }
 .cbp-af-header-shrink {
 
@@ -164,7 +182,6 @@ aside {
     height:70px;
 
 }
-
 .sports-list-top div {
 
     margin-left:auto;
@@ -172,7 +189,6 @@ aside {
     text-align:center;
 
 }
-
 .sports-list-top a {
 
     margin-left:30px;
@@ -180,40 +196,32 @@ aside {
     display:inline-block;
 
 }
-
 article {
 
     padding:40px;
     text-align:center;
 
 }
-
 section {
 
     min-height:350px;
     text-align:center;
 }
-
 .text-banner {
 
     text-align:center;
     margin:40px 20px;
 }
-
 .text-banner h1 {
 
     font-size:44px;
     color:#336699;
     text-align:left;
-
-
 }
-
 .text-banner p {
 
     font-size:18px;
 }
-
 #activities {
 
     padding-top:50px;
@@ -222,7 +230,6 @@ section {
 
     margin:50px;
 }
-
 .activity-element {
 
     text-align:center;
@@ -233,15 +240,16 @@ section {
     height:75px; 
 
 }
-
 .fixed-attachment {
 
     background-attachment:fixed;
+
 }
 .contact-us {
 
     margin:50px;
     text-align:center
+
 }
 
 @media(max-width:1024px) {
